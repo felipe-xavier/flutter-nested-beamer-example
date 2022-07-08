@@ -6,9 +6,7 @@ import 'package:flutter/material.dart';
 
 class HomeLocation extends BeamLocation<BeamState> {
   @override
-  List<String> get pathPatterns => [
-        '/',
-      ];
+  List<String> get pathPatterns => ['*'];
 
   @override
   List<BeamPage> buildPages(BuildContext context, BeamState state) {
